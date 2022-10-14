@@ -1,0 +1,18 @@
+android:publish:
+  stage: .pre
+  image: "${CI_REGISTRY_IMAGE}/doc-site:1"
+  rules:
+    - if: '$CI_PIPELINE_SOURCE == "merge_request_event"'
+      changes:
+        - platforms/android/**/*
+      when: on_success
+      allow_failure: false
+  before_script:
+    - apt-get update && apt-get install -y --no-install-recommends coreutils gnupg git ssh
+  script:
+    # In the pipeline, the value of `$(tty)` is `not a tty`, so we can’t assign `$(tty)` to `GPG_TTY`.
+    - export GPG_TTY=/dev/tty0
+    - export OP_CONNECT_TOKEN=$OP_CONNECT_TOKEN_MASKED_ONLY
+    - time scripts/publication-setup.sh
+    - time scripts/publish-package.sh android 1.0.0-test.1 --branch=ed/test
+    - time scripts/publication-teardown.sh

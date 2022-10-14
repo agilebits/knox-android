@@ -1,1 +1,1 @@
-# knox-android
+# com.onepassword.knox
