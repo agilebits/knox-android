@@ -119,11 +119,6 @@
   <dimen name="knox_base_line_height_100">14.72sp</dimen>
   <dimen name="knox_base_line_height_200">15.36sp</dimen>
   <dimen name="knox_base_line_height_300">16.00sp</dimen>
-  <dimen name="knox_border_radius_none">0.00dp</dimen><!-- Used to remove an existing border radius style from an element. -->
-  <dimen name="knox_border_radius_small">4.00dp</dimen><!-- Used for subtle and small components (e.g., checkbox and menus). -->
-  <dimen name="knox_border_radius_medium">8.00dp</dimen><!-- Used for clickable elements and some containers (e.g., buttons, text fields, tooltips, and callout banners). -->
-  <dimen name="knox_border_radius_large">12.00dp</dimen><!-- Used for large containers and popups (e.g., modals and toasts). -->
-  <dimen name="knox_border_radius_circular">99999.00dp</dimen><!-- Used to round elements into a full circle (e.g., avatars and radio buttons). -->
   <color name="knox_color_background_neutral_default">#ff1a1a1a</color>
   <color name="knox_color_background_neutral_high">#ff212121</color>
   <color name="knox_color_background_neutral_low">#ff141414</color>
@@ -193,6 +188,11 @@
   <color name="knox_color_border_accent_success">#ff398b32</color>
   <color name="knox_color_border_accent_critical">#ffc65539</color>
   <color name="knox_color_border_accent_focus">#a675afff</color>
+  <dimen name="knox_corner_radius_none">0.00dp</dimen><!-- Used to remove an existing corner radius style from an element. -->
+  <dimen name="knox_corner_radius_small">4.00dp</dimen><!-- Used for subtle and small components (e.g., checkbox and menus). -->
+  <dimen name="knox_corner_radius_medium">8.00dp</dimen><!-- Used for clickable elements and some containers (e.g., buttons, text fields, tooltips, and callout banners). -->
+  <dimen name="knox_corner_radius_large">12.00dp</dimen><!-- Used for large containers and popups (e.g., modals and toasts). -->
+  <dimen name="knox_corner_radius_circular">99999.00dp</dimen><!-- Used to round elements into a full circle (e.g., avatars and radio buttons). -->
   <dimen name="knox_spacing_hairline">1.00dp</dimen><!-- Use for elements that are attached to each other but need just a hint of separation to keep them from blending in. -->
   <dimen name="knox_spacing_2xs">4.00dp</dimen><!-- Use to create extra tight spaces between small related elements or elements that share a direct functional relationship. -->
   <dimen name="knox_spacing_xs">8.00dp</dimen><!-- Use to create tight spaces between small elements or elements that share a close functional relationship. -->
