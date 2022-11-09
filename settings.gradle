@@ -8,4 +8,5 @@
  */
 
 rootProject.name = 'Knox'
-include('lib')
+include('lib:components')
+include('lib:tokens')
