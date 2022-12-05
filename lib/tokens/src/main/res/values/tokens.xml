@@ -9,6 +9,8 @@
   <color name="knox_base_color_greyscale_700">#ff212121</color>
   <color name="knox_base_color_greyscale_800">#ff1a1a1a</color>
   <color name="knox_base_color_greyscale_900">#ff141414</color>
+  <color name="knox_base_color_greyscale_1000">#b3ededed</color>
+  <color name="knox_base_color_greyscale_1100">#b3141414</color>
   <color name="knox_base_color_black_0">#00000000</color>
   <color name="knox_base_color_black_50">#12000000</color>
   <color name="knox_base_color_black_100">#21000000</color>
@@ -126,6 +128,7 @@
   <color name="knox_color_background_neutral_interactive">#00000000</color><!-- For elements that need the same color as the view behind them. Most common color for interactive elements. -->
   <color name="knox_color_background_neutral_interactive_hover">#12000000</color>
   <color name="knox_color_background_neutral_interactive_pressed">#21000000</color>
+  <color name="knox_color_background_neutral_overlay">#b3ededed</color><!-- A background for modals or other elements that need to de-emphasize the content under them. -->
   <color name="knox_color_background_accent_default">#ffebf3ff</color><!-- Draws attention to an element. Will change to match custom operating system accent colors. -->
   <color name="knox_color_background_accent_attention">#fff1f0ff</color><!-- Draws extra attention to an element by not using default accent color. -->
   <color name="knox_color_background_accent_success">#ffe7f5e5</color><!-- Draws attention to a success state element. Indicates an important process or error has been addressed. -->
@@ -225,7 +228,7 @@
   <dimen name="knox_letter_spacing_body_large">-0.18dp</dimen>
   <dimen name="knox_letter_spacing_body_medium">-0.09dp</dimen>
   <dimen name="knox_letter_spacing_body_small">0.01dp</dimen>
-  <dimen name="knox_line_height_heading_default">14.72sp</dimen><!-- Default line height for body text and headings. -->
+  <dimen name="knox_line_height_default">14.72sp</dimen><!-- Default line height for body text and headings. -->
   <dimen name="knox_line_height_heading_large">15.36sp</dimen><!-- For tighter line spacing with text at 28pt or larger. -->
   <dimen name="knox_line_height_heading_xl">16.00sp</dimen><!-- For tighter line spacing with text at 48pt or larger. -->
   

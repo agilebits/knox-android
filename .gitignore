@@ -2,5 +2,8 @@
 .gradle
 .idea/
 build
-gradle.properties
 local.properties
+
+# !!! ----------- DO NOT EDIT FROM THIS LINE FORWARD. ----------- !!!
+# !!! What’s below is for our publication script alone to handle. !!!
+ops/
