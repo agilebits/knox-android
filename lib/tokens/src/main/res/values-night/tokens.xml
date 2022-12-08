@@ -228,8 +228,8 @@
   <dimen name="knox_letter_spacing_body_large">-0.18dp</dimen>
   <dimen name="knox_letter_spacing_body_medium">-0.09dp</dimen>
   <dimen name="knox_letter_spacing_body_small">0.01dp</dimen>
-  <dimen name="knox_line_height_default">14.72sp</dimen><!-- Default line height for body text and headings. -->
+  <dimen name="knox_line_height_default">16.00sp</dimen><!-- Default line height for body text and headings. -->
   <dimen name="knox_line_height_heading_large">15.36sp</dimen><!-- For tighter line spacing with text at 28pt or larger. -->
-  <dimen name="knox_line_height_heading_xl">16.00sp</dimen><!-- For tighter line spacing with text at 48pt or larger. -->
+  <dimen name="knox_line_height_heading_xl">14.72sp</dimen><!-- For tighter line spacing with text at 48pt or larger. -->
   
 </resources>
